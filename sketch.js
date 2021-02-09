@@ -114,7 +114,7 @@ function detectCollision(lstone,lmango){
 	stone.body.position=lstone.body.position
     mango1.body.position=lmango.body.position
 
-    var distance=dist(stone.body.position.x,stone.body.position.y,Lmango.body.position.x,Lmango.body.position.y)
+    var distance=dist(stone.body.position.x,stone.body.position.y,mango1.body.position.x,mango1.body.position.y)
 
     if(distance<=lmango.r+lstone.width){
 
